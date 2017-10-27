@@ -1,0 +1,34 @@
+{
+  "name": "homebridge-samplePlatform",
+  "version": "0.0.1",
+  "description": "Sample Platform plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/example/homebridge.git"
+  },
+  "bugs": {
+    "url": "http://github.com/example/homebridge/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1"
+  },
+  "peerDependencies": {
+  },
+  "dependencies": {
+    "hap-nodejs": "git+https://github.com/bhagyas/hap-nodejs.git",
+    "homebridge": "git+https://github.com/nfarina/homebridge.git",
+    "@types/node": "^8.0.47",
+    "http": "0.0.0"
+  }
+}
